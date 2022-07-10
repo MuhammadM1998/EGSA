@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply scroll-smooth font-poppins font-normal;
+  }
+
+  h1 {
+    @apply font-mavis text-5xl md:text-7xl;
+  }
+
+  h2 {
+    @apply text-2xl font-bold;
+  }
+
+  h3 {
+    @apply text-xl font-semibold;
+  }
+
+  /* Fonts (Always keep it at the end of the stylesheet) */
+  @font-face {
+    font-family: 'Mavis';
+    src: url('../fonts/MAVIS-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+}

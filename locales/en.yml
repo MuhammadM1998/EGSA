@@ -1,0 +1,170 @@
+sections:
+  nav:
+    home: 'Home'
+    about: 'About'
+    flight_schedule: 'Flights Schedule'
+    flight_request: 'Book a Flight'
+    space_blog: 'Space Blog'
+
+  intro:
+    title: 'To the Moon and Beyond!'
+    sub_title: "'One small step for man, one giant leap for mankind'. Neil Armstrong"
+
+  features:
+    Missiles: 'Trusted domestic missiles production.'
+    Nutrition: 'Tasty & healthy space nutrition on board.'
+    Astronaut: 'All pilots are former astronauts'
+    Rover: 'Moon expedtions using rovers.'
+
+  details:
+    section_heading: 'Travelling over the world is amazing. But imagine travelling OUT OF THE WORLD!'
+    section_sub_heading: 'Have you been travelling all over the world? Visited interesting countries and saw unbelievable things? Well, a trip to the moon will beat anything. Your souveniers that you bring back from vacation already do not make your loved ones happy? Bring them a real moonstone next time! We offer an innovative service in the space tourism (so far only to the moon, currently working on resolving issues with the Mars visa center). Book your flight with us Now! Go on an incredible adventure for 72 hours.'
+
+    dont_forget:
+      heading: "Don't forget to bring with you:"
+
+      passport:
+        title: 'Passport.'
+        description: "We know what you're thinking now, but the passport is required at the station inspection."
+      heavy_boots:
+        title: 'Heavy boots.'
+        description: 'Suitable for low gravity on the moon.'
+      Crypto_currency:
+        title: 'Cryptocurrency.'
+        description: 'We recommend to exchange some Lun-coins to buy souvenirs.'
+
+    leave_at_home:
+      heading: 'This is best left at home.'
+
+      Telephone:
+        title: 'Telephone.'
+        description: "There's no cell or Wi-Fi coverage in space."
+      Sandwiches:
+        title: 'Sandwiches.'
+        description: 'Suitable meals will be on board that wont scatter around the cabin due to zero gravity.'
+      Swimsuit:
+        title: 'Swimsuit.'
+        description: 'You can dive in space, but not with that suit.'
+
+  flight_schedule:
+    section_heading: 'Flights Schedule'
+    section_sub_heading: 'We designed a unique flight schedule for your convience, with departure stations from Alexandria to Aswan. You can also book your private flight!'
+
+    table:
+      head:
+        flight_no: 'Flight No.'
+        departure_station: 'Departure Station'
+        departure_time: 'Departure Time'
+        landing_time: 'Landing Time'
+      data:
+        row1:
+          flight_no: '1635'
+          departure_station: 'Cairo'
+          departure_time: '00:45 AM'
+          landing_time: '06:15 AM'
+        row2:
+          flight_no: '1713'
+          departure_station: 'Qena'
+          departure_time: '02:00 AM'
+          landing_time: '07:30 AM'
+        row3:
+          flight_no: '1688'
+          departure_station: 'Cairo'
+          departure_time: '03:15 AM'
+          landing_time: '08:45 AM'
+        row4:
+          flight_no: '1241'
+          departure_station: 'Assiut'
+          departure_time: '04:30 AM'
+          landing_time: '09:15 AM'
+        row5:
+          flight_no: '1824'
+          departure_station: 'Alexandria'
+          departure_time: '05:45 AM'
+          landing_time: '10:30 AM'
+        row6:
+          flight_no: '1209'
+          departure_station: 'Luxor'
+          departure_time: '07:00 AM'
+          landing_time: '11:45 AM'
+        row7:
+          flight_no: '1453'
+          departure_station: 'Aswan'
+          departure_time: '08:15 AM'
+          landing_time: '01:00 PM'
+
+  flight_request:
+    section_heading: 'Ready to unlock a new world?'
+    section_sub_heading: "Confirm your request by submitting the form. We'll check your personal information and contact you back within 24 hours to discuss the fees."
+
+    form:
+      flight_no: 'Flight No.'
+      full_name: 'Full Name'
+      national_id: 'National ID Number'
+      mobile: 'Mobile'
+      email: 'Email'
+      height: 'Height'
+      weight: 'Weight'
+      terms: 'I agree to EGSA terms & conditions.'
+
+  blog:
+    section_heading: "Don't miss our Space Blog"
+    section_sub_heading: "It's amazing to visit space. But until then, you can read many great articles on the EGSA space blog"
+
+    articles:
+      article1:
+        title: 'A Day in the Life of a Private Astronaut'
+        sub-title: "We are often asked what there is to do on the Space Station - while the view is phenomenal, surely visitors don't just spend all day looking out of the window."
+
+      article2:
+        title: "Don't miss the solar eclipse today: How to watch live"
+        sub-title: 'As much as 64% of the sun will temporarily disappear from view Saturday (April 30), as a rare solar eclipse moves across part of our planet.'
+
+  testimonials:
+    testimonial1:
+      name: 'Mustafa Amir'
+      position: 'VIP Client'
+      quote: "“I have traveled to more than 46 countries all over the world and experienced many amazing things and views. I decided, after hesitation, to go through the moon travel experience with the EGSA. I can't describe how amazing the experience was. I will definitely try it again.”"
+
+    testimonial2:
+      name: 'Ziad Turky'
+      position: 'VIP Client'
+      quote: '“We are always working at the Egyptian Space Agency to keep abreast of all developments in the field of space tourism. Our most important goal is to provide an unforgettable customer experience. I encourage everyone to book their flight ASAP because it is an opportunity you will not want to miss.”'
+
+    testimonial3:
+      name: "O'mar Maged"
+      position: 'Astronaut at NASA'
+      quote: '“I went on a moon trip with my friends at NASA and it was a really great experience! You can never get bored of looking at the moon and earth from space. I liked the professionalism and ease of dealing with the Egyptian Agency, and I highly recommend it to anyone who wants to live those unforgettable moments.”'
+
+  footer:
+    location: '24 Wady El Nil St., Maadi.'
+    phone1: '02-3580179'
+    phone2: '02-3580197'
+
+    quick_links:
+      heading: 'Quick Links'
+      link1: 'Home'
+      link2: 'About'
+      link3: 'Flights Schedule'
+      link4: 'Request a Flight'
+      link5: 'Space Blog'
+
+    newsletter:
+      heading: 'Newsletter'
+      sub_heading: 'We send updates every week'
+      email_placeholder: 'Email Address'
+
+    rights: '© 2022 EGSA. All right reserved.'
+
+  my_card:
+    heading: "Hi there! I'm Muhammad"
+    sub_heading: 'I created this website. If you like it and want to make your own, feel free to contact me.'
+    rights: '© All Rights Reserved 2022 . Muhammad Mahmoud'
+
+components:
+  buttons:
+    flights_schedule: 'Flights Schedule'
+    submit: 'Submit'
+    all_articles: 'All Articles'
+    read_more: 'Read More'
+    subscribe: 'Subscribe'
