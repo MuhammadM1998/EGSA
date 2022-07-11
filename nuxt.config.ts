@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'EGSA',
-      // htmlAttrs: { lang: 'en' },
+
       link: [
         {
           rel: 'icon',
@@ -13,6 +13,20 @@ export default defineNuxtConfig({
             process.env.NODE_ENV === 'development'
               ? '/public/favicon.ico'
               : '/favicon.ico',
+        },
+        // Google Fonts
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.googleapis.com',
+        },
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.gstatic.com',
+          crossorigin: true,
+        },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap',
         },
       ],
 
@@ -43,11 +57,13 @@ export default defineNuxtConfig({
         },
         {
           property: 'og:image',
-          content: '<><><><><><><><><><><><><><><><><><><><><><><><><><><><>',
+          content:
+            'https://res.cloudinary.com/cloud-m98/image/upload/c_scale,h_630,q_40,w_1200/v1656823565/EGSA/Website-Screenshot_hq6wko.png',
         },
         {
           property: 'og:image:secure_url',
-          content: '<><><><><><><><><><><><><><><><><><><><><><><><><><><><>',
+          content:
+            'https://res.cloudinary.com/cloud-m98/image/upload/c_scale,h_630,q_40,w_1200/v1656823565/EGSA/Website-Screenshot_hq6wko.png',
         },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
@@ -70,7 +86,8 @@ export default defineNuxtConfig({
         },
         {
           property: 'twitter:image',
-          content: '<><><><><><><><><><><><><><><><><><><><><><><><><><><><>',
+          content:
+            'https://res.cloudinary.com/cloud-m98/image/upload/c_scale,h_630,q_40,w_1200/v1656823565/EGSA/Website-Screenshot_hq6wko.png',
         },
       ],
     },

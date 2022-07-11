@@ -2,7 +2,7 @@
 
 Multilingual (EN & AR) Landing Page for The Egyptian Space Agency, a moon flights agency.
 
-![Website Mockup]()
+![Website Mockup](https://res.cloudinary.com/cloud-m98/image/upload/c_scale,h_630,q_40,w_1200/v1656823565/EGSA/Website-Screenshot_hq6wko.png)
 
 ### 🔗 Links
 

@@ -1,7 +1,15 @@
 <template>
-  <div>
-    <h1>{{ $t('sections.intro.title') }}</h1>
+  <div :dir="$i18n.locale === 'en' ? 'ltr' : 'rtl'">
+    <TheHeader />
+    <SectionIntro />
+    <SectionFeatures />
+    <SectionDetails />
+    <LazySectionRequestFlight />
+    <LazySectionBlog />
+    <LazySectionTestimonials />
+    <LazyTheFooter />
+    <LazyMyCard />
 
-    <LanguageSwitcher />
+    <LocaleSwitcher />
   </div>
 </template>

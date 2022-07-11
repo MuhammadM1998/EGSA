@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,6 +6,7 @@
   html,
   body {
     @apply scroll-smooth font-poppins font-normal;
+    -webkit-tap-highlight-color: transparent;
   }
 
   h1 {
@@ -22,6 +21,10 @@
     @apply text-xl font-semibold;
   }
 
+  .app-section {
+    @apply py-14;
+  }
+
   /* Fonts (Always keep it at the end of the stylesheet) */
   @font-face {
     font-family: 'Mavis';
@@ -29,4 +32,8 @@
     font-weight: 700;
     font-style: normal;
   }
+}
+
+span.nuxt-icon svg {
+  @apply m-0;
 }
