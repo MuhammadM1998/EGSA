@@ -1,7 +1,7 @@
 <template>
   <section class="app-section bg-gray-500 text-white">
     <div
-      class="container flex flex-col items-center gap-16 lg:flex-row-reverse"
+      class="container flex flex-col items-center gap-16 lg:flex-row-reverse lg:justify-between"
     >
       <div>
         <picture>
@@ -26,7 +26,9 @@
       <div
         class="flex flex-col items-center gap-4 text-center lg:items-start lg:gap-6 lg:text-start"
       >
-        <h1>{{ $t('sections.intro.title') }}</h1>
+        <h1 :class="$i18n.locale === 'en' ? 'font-mavis ' : 'font-norsal'">
+          {{ $t('sections.intro.title') }}
+        </h1>
 
         <p>{{ $t('sections.intro.sub_title') }}</p>
 

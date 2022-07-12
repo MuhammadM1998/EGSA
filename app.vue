@@ -1,5 +1,8 @@
 <template>
-  <div :dir="$i18n.locale === 'en' ? 'ltr' : 'rtl'">
+  <div
+    :dir="$i18n.locale === 'en' ? 'ltr' : 'rtl'"
+    :class="$i18n.locale === 'ar' ? 'font-norsal' : ''"
+  >
     <TheHeader />
     <SectionIntro />
     <SectionFeatures />
@@ -9,7 +12,5 @@
     <LazySectionTestimonials />
     <LazyTheFooter />
     <LazyMyCard />
-
-    <LocaleSwitcher />
   </div>
 </template>

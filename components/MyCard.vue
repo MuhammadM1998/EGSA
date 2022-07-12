@@ -8,7 +8,7 @@
         class="h-[72px] w-[72px]"
       />
 
-      <p class="font-bold">{{ $t('sections.my_card.heading') }}</p>
+      <p class="font-bold text-primary">{{ $t('sections.my_card.heading') }}</p>
       <p class="text-gray-200">{{ $t('sections.my_card.sub_heading') }}</p>
 
       <ul class="social-links">
@@ -28,6 +28,8 @@
           <a href="#"><NuxtIcon name="Dev.to" /></a>
         </li>
       </ul>
+
+      <p class="text-gray-200">{{ $t('sections.my_card.rights') }}</p>
     </div>
   </section>
 </template>

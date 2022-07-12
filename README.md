@@ -6,7 +6,7 @@ Multilingual (EN & AR) Landing Page for The Egyptian Space Agency, a moon flight
 
 ### 🔗 Links
 
-- [Live Site]()
+- [Live Site](https://egsa.vercel.app/)
 - [Source Repo](https://github.com/MuhammadM1998/EGSA)
 
 ### ‍💻 Stack

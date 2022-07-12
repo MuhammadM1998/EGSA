@@ -43,7 +43,7 @@
         <div class="flex flex-col gap-4 text-center lg:text-start">
           <h3>{{ $t('sections.details.dont_forget.heading') }}</h3>
 
-          <ul class="flex flex-col gap-4 text-left text-gray-400">
+          <ul class="flex flex-col gap-4 text-left text-gray-400 lg:text-start">
             <li class="flex items-center gap-5">
               <span class="bullet"> </span>
 
@@ -85,7 +85,7 @@
         <div class="flex flex-col gap-4 text-center lg:text-start">
           <h3>{{ $t('sections.details.leave_at_home.heading') }}</h3>
 
-          <ul class="flex flex-col gap-4 text-left text-gray-400">
+          <ul class="flex flex-col gap-4 text-left text-gray-400 lg:text-start">
             <li class="flex items-center gap-5">
               <span class="bullet"> </span>
 

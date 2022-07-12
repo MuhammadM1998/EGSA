@@ -63,7 +63,9 @@
           <input type="checkbox" name="terms" aria-label="terms" />
         </div>
 
-        <BaseButton type="pill" class="mx-auto lg:mx-0">Submit</BaseButton>
+        <BaseButton type="pill" class="mx-auto lg:mx-0">
+          {{ $t('components.buttons.submit') }}
+        </BaseButton>
       </form>
     </div>
   </section>

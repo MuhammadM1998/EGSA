@@ -8,7 +8,9 @@
 
         <p>{{ $t('sections.blog.section_sub_heading') }}</p>
 
-        <BaseButton type="pill">All Articles</BaseButton>
+        <BaseButton type="pill">
+          {{ $t('components.buttons.all_articles') }}
+        </BaseButton>
       </div>
 
       <div

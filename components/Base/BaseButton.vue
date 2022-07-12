@@ -11,7 +11,7 @@
     <div v-if="type === 'pill'">
       <NuxtIcon
         name="Arrow-Right"
-        :class="{ 'rotate-180': $i18n.locale === 'ar' }"
+        :class="{ 'block rotate-180': $i18n.locale === 'ar' }"
       />
     </div>
   </button>

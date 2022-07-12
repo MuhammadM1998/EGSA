@@ -10,7 +10,7 @@
   }
 
   h1 {
-    @apply font-mavis text-5xl md:text-7xl;
+    @apply text-5xl font-bold md:text-7xl;
   }
 
   h2 {
@@ -29,6 +29,27 @@
   @font-face {
     font-family: 'Mavis';
     src: url('../fonts/MAVIS-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Norsal';
+    src: url('../fonts/Norsal-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Norsal';
+    src: url('../fonts/Norsal-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Norsal';
+    src: url('../fonts/Norsal-Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
   }

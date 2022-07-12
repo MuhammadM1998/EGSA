@@ -35,6 +35,7 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         mavis: ['Mavis', 'sans-serif'],
+        norsal: ['Norsal', 'sans-serif'],
       },
 
       animation: {

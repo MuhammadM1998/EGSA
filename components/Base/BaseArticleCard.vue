@@ -21,7 +21,9 @@
 
       <p class="text-gray-400">{{ subTitle }}</p>
 
-      <BaseButton type="normal">Read More</BaseButton>
+      <BaseButton type="normal">
+        {{ $t('components.buttons.read_more') }}
+      </BaseButton>
     </div>
   </div>
 </template>

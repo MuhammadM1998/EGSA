@@ -1,5 +1,5 @@
 <template>
-  <button>
+  <button class="outline-none">
     <svg
       class="hamburger"
       viewBox="0 0 100 100"
