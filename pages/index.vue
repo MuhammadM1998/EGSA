@@ -1,3 +1,14 @@
+<script setup>
+  definePageMeta({
+    middleware: () => {
+      const cookie = useCookie('user-favourite-locale');
+      const { vueApp } = useNuxtApp();
+      const { locale } = vueApp.__VUE_I18N__.global;
+      if (cookie.value) locale.value = cookie.value;
+    },
+  });
+</script>
+
 <template>
   <div
     id="egsa-app"

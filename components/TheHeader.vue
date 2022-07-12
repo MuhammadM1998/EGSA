@@ -54,7 +54,7 @@
             </li>
           </ul>
 
-          <LocaleSwitcher />
+          <LocaleSwitcher v-model:isNavActive="isMobileNavVisible" />
         </div>
       </nav>
     </div>

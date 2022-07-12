@@ -1,20 +1,25 @@
 <script setup>
+  // Locale
   import { useI18n } from 'vue-i18n';
   const { locale } = useI18n();
-
-  const loadLocale = () => {
-    if (localStorage.getItem('user-favourite-locale'));
-    locale.value = localStorage.getItem('user-favourite-locale');
-  };
+  const cookie = useCookie('user-favourite-locale');
 
   const updateLocale = (newLocale) => {
     locale.value = newLocale;
-    localStorage.setItem('user-favourite-locale', newLocale);
+    cookie.value = newLocale;
+    toggleNavState();
   };
 
-  onMounted(() => {
-    loadLocale();
+  // Closing the mobile nav after selecting the new locale
+  defineProps({
+    isNavActive: { type: Boolean, required: true },
   });
+
+  const emit = defineEmits(['update:isNavActive']);
+
+  const toggleNavState = () => {
+    emit('update:isNavActive', false);
+  };
 </script>
 
 <template>
