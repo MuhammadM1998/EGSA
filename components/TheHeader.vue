@@ -1,24 +1,36 @@
 <script setup>
-  const isNavMenuVisible = ref(false);
+  // Mobile Nav
+  const isMobileNavVisible = ref(false);
+  const NavMenu = ref(null);
+  const hamburgerButton = ref(null);
+
+  watch(isMobileNavVisible, (newValue) => {
+    if (newValue)
+      onClickOutside(NavMenu, () => (isMobileNavVisible.value = false), {
+        ignore: [hamburgerButton],
+      });
+  });
 </script>
 
 <template>
   <header
     class="relative bg-gray-500 py-4 transition-colors"
-    :class="{ 'bg-black': isNavMenuVisible }"
+    :class="{ 'bg-black': isMobileNavVisible }"
   >
     <div class="container flex items-center justify-between">
       <TheLogo />
 
       <nav>
         <HamburgerButton
+          ref="hamburgerButton"
+          v-model:isNavActive="isMobileNavVisible"
           class="lg:hidden"
-          @click="isNavMenuVisible = !isNavMenuVisible"
         />
 
         <div
+          ref="NavMenu"
           class="nav-menu"
-          :class="{ 'nav-menu--visible': isNavMenuVisible }"
+          :class="{ 'nav-menu--visible': isMobileNavVisible }"
         >
           <ul class="flex flex-col gap-4 lg:flex-row">
             <li class="transition-colors hover:text-primary">

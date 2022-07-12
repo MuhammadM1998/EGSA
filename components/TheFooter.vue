@@ -2,8 +2,8 @@
   <footer class="app-section bg-black pb-0 text-gray-200">
     <div class="container flex flex-col gap-8">
       <div class="flex flex-col gap-8 lg:flex-row lg:gap-12">
-        <div class="flex flex-col gap-4 lg:grow">
-          <TheLogo class="mx-auto" />
+        <div class="flex flex-col gap-4 lg:grow lg:gap-8">
+          <TheLogo class="mx-auto lg:mx-0" />
 
           <div class="flex items-center gap-4">
             <NuxtIcon name="Location" class="text-2xl text-primary" />

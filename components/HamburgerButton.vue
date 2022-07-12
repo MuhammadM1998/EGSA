@@ -1,10 +1,23 @@
+<script setup>
+  const props = defineProps({
+    isNavActive: { type: Boolean, required: true },
+  });
+
+  const emit = defineEmits(['update:isNavActive']);
+
+  const toggleNavState = () => {
+    emit('update:isNavActive', !props.isNavActive);
+  };
+</script>
+
 <template>
   <button class="outline-none">
     <svg
+      :class="{ 'hamburger--active': isNavActive }"
       class="hamburger"
       viewBox="0 0 100 100"
       width="64"
-      onclick="this.classList.toggle('hamburger--active')"
+      @click="toggleNavState"
     >
       <path
         class="line top line--top"

@@ -98,13 +98,13 @@ export default defineNuxtConfig({
     'nuxt-icons',
     '@vueuse/nuxt',
     '@intlify/nuxt3',
+    '@vueuse/nuxt',
   ],
 
   intlify: {
     localeDir: 'locales',
     vueI18n: {
-      locale: 'en',
-      fallbackLocale: 'ar',
+      fallbackLocale: 'en',
       availableLocales: ['en', 'ar'],
     },
   },
