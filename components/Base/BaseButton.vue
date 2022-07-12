@@ -2,19 +2,30 @@
   const props = defineProps({
     type: { type: String, required: true },
   });
+
+  // Modal
+  const isModalVisible = ref(false);
 </script>
 
 <template>
-  <button class="button hover:animate-pulse-fast" :class="type">
-    <slot />
+  <div>
+    <button
+      class="button hover:animate-pulse-fast"
+      :class="type"
+      @click.prevent="isModalVisible = true"
+    >
+      <slot />
 
-    <div v-if="type === 'pill'">
-      <NuxtIcon
-        name="Arrow-Right"
-        :class="{ 'block rotate-180': $i18n.locale === 'ar' }"
-      />
-    </div>
-  </button>
+      <div v-if="type === 'pill'">
+        <NuxtIcon
+          name="Arrow-Right"
+          :class="{ 'block rotate-180': $i18n.locale === 'ar' }"
+        />
+      </div>
+    </button>
+
+    <BaseModal v-model:is-modal-visible="isModalVisible" />
+  </div>
 </template>
 
 <style scoped lang="scss">

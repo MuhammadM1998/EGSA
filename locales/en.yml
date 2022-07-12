@@ -125,3 +125,8 @@ components:
     all_articles: 'All Articles'
     read_more: 'Read More'
     subscribe: 'Subscribe'
+
+  modal:
+    heading: 'Coming soon. Stay tuned!'
+    sub_heading: 'We work everyday to enhance our clients experience. This feature is on our roadmap and exepected to be released soon. Thank you for your patience.'
+    close: 'Close'
