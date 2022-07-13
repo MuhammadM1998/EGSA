@@ -2,7 +2,7 @@
   <section class="app-section bg-gray-500 pb-2 text-white">
     <div class="container flex flex-col items-center gap-4">
       <img
-        src="~/assets/images/Muhammad-Mahmoud.webp"
+        src="https://res.cloudinary.com/cloud-m98/image/upload/v1657717653/EGSA/Muhammad-Mahmoud_p1ifsl.webp"
         alt="Muhammad Mahmoud"
         loading="lazy"
         class="h-[72px] w-[72px]"

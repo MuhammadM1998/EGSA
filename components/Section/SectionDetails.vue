@@ -8,16 +8,20 @@
           <picture>
             <source
               media="(max-width: 1023px)"
-              srcset="~/assets/images/Astronaut-with-Alien-Mobile.webp"
+              srcset="
+                https://res.cloudinary.com/cloud-m98/image/upload/v1657717652/EGSA/Astronaut-with-Alien-Mobile_u0bxb5.webp
+              "
             />
 
             <source
               media="(min-width: 1024px)"
-              srcset="~/assets/images/Astronaut-with-Alien-Desktop.webp"
+              srcset="
+                https://res.cloudinary.com/cloud-m98/image/upload/v1657717652/EGSA/Astronaut-with-Alien-Desktop_sxtzli.webp
+              "
             />
 
             <img
-              src="~/assets/images/Astronaut-with-Alien-Mobile.webp"
+              src="https://res.cloudinary.com/cloud-m98/image/upload/v1657717652/EGSA/Astronaut-with-Alien-Mobile_u0bxb5.webp"
               alt="Astronaut with Alien Illustration"
               loading="lazy"
             />

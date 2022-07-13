@@ -4,7 +4,7 @@
       <ul class="flex flex-col gap-6 text-center lg:flex-row lg:justify-center">
         <li class="feature">
           <img
-            src="~/assets/images/Features-Missiles.webp"
+            src="https://res.cloudinary.com/cloud-m98/image/upload/v1657717651/EGSA/Features-Missiles_dsc5km.webp"
             class="feature__img"
             alt="Missiles"
             loading="lazy"
@@ -17,7 +17,7 @@
 
         <li class="feature">
           <img
-            src="~/assets/images/Features-Nutrition.webp"
+            src="https://res.cloudinary.com/cloud-m98/image/upload/v1657717652/EGSA/Features-Nutrition_ddtmdc.webp"
             class="feature__img"
             alt="Nutrition"
             loading="lazy"
@@ -30,7 +30,7 @@
 
         <li class="feature">
           <img
-            src="~/assets/images/Features-Astronaut.webp"
+            src="https://res.cloudinary.com/cloud-m98/image/upload/v1657717651/EGSA/Features-Astronaut_nozzdp.webp"
             class="feature__img"
             alt="Astronaut"
             loading="lazy"
@@ -43,7 +43,7 @@
 
         <li class="feature">
           <img
-            src="~/assets/images/Features-Rover.webp"
+            src="https://res.cloudinary.com/cloud-m98/image/upload/v1657717652/EGSA/Features-Rover_qzdwfw.webp"
             class="feature__img"
             alt="Rover"
             loading="lazy"

@@ -10,16 +10,20 @@
           <picture>
             <source
               media="(max-width: 1023px)"
-              srcset="~/assets/images/Hero-Mobile.webp"
+              srcset="
+                https://res.cloudinary.com/cloud-m98/image/upload/v1657717653/EGSA/Hero-Mobile_mhoyzg.webp
+              "
             />
 
             <source
               media="(min-width: 1024px)"
-              srcset="~/assets/images/Hero-Desktop.webp"
+              srcset="
+                https://res.cloudinary.com/cloud-m98/image/upload/v1657717653/EGSA/Hero-Desktop_ph9iga.webp
+              "
             />
 
             <img
-              src="~/assets/images/Hero-Mobile.webp"
+              src="https://res.cloudinary.com/cloud-m98/image/upload/v1657717653/EGSA/Hero-Mobile_mhoyzg.webp"
               alt="The Moon"
               loading="lazy"
             />

@@ -9,21 +9,24 @@
       name: t('sections.testimonials.testimonial1.name'),
       position: t('sections.testimonials.testimonial1.position'),
       quote: t('sections.testimonials.testimonial1.quote'),
-      imgUrl: '~/assets/images/Mustafa-Amir.webp',
+      imgUrl:
+        'https://res.cloudinary.com/cloud-m98/image/upload/v1657717653/EGSA/Mustafa-Amir_qhlmet.webp',
     },
     {
       id: 2,
       name: t('sections.testimonials.testimonial2.name'),
       position: t('sections.testimonials.testimonial2.position'),
       quote: t('sections.testimonials.testimonial2.quote'),
-      imgUrl: '~/assets/images/Ziad-Turky.webp',
+      imgUrl:
+        'https://res.cloudinary.com/cloud-m98/image/upload/v1657717653/EGSA/Ziad-Turky_tkb3sx.webp',
     },
     {
       id: 3,
       name: t('sections.testimonials.testimonial3.name'),
       position: t('sections.testimonials.testimonial3.position'),
       quote: t('sections.testimonials.testimonial3.quote'),
-      imgUrl: '~/assets/images/Omar-Maged.webp',
+      imgUrl:
+        'https://res.cloudinary.com/cloud-m98/image/upload/v1657717653/EGSA/Omar-Maged_abbb8b.webp',
     },
   ];
 </script>

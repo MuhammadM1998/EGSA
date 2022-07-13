@@ -17,13 +17,13 @@
         class="flex flex-col items-center gap-8 md:flex-row md:justify-center lg:basis-3/5"
       >
         <BaseArticleCard
-          img-url="../assets/images/Blog-Earth-from-Space.webp"
+          img-url="https://res.cloudinary.com/cloud-m98/image/upload/v1657717653/EGSA/Blog-Earth-from-Space_ee55pe.webp"
           :title="$t('sections.blog.articles.article1.title')"
           :sub-title="$t('sections.blog.articles.article1.sub_title')"
         />
 
         <BaseArticleCard
-          img-url="~/assets/images/Blog-Solar-Eclipse.webp"
+          img-url="https://res.cloudinary.com/cloud-m98/image/upload/v1657717651/EGSA/Blog-Solar-Eclipse_bl9ij0.webp"
           :title="$t('sections.blog.articles.article2.title')"
           :sub-title="$t('sections.blog.articles.article2.sub_title')"
         />
