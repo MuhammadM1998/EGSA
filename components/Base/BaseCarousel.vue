@@ -1,14 +1,15 @@
 <script setup>
   // Swiper Config
   import { Swiper, SwiperSlide } from 'swiper/vue';
-  import { Pagination, Navigation, EffectFade, Keyboard } from 'swiper';
+  import { Pagination, Navigation, EffectFade, Lazy, Keyboard } from 'swiper';
   import 'swiper/css';
   import 'swiper/css/pagination';
   import 'swiper/css/navigation';
   import 'swiper/css/effect-fade';
+  import 'swiper/css/lazy';
 
   const swiperConfig = {
-    modules: [Pagination, Navigation, EffectFade, Keyboard],
+    modules: [Pagination, Navigation, EffectFade, Lazy, Keyboard],
     pagination: {
       clickable: true,
     },
@@ -17,12 +18,21 @@
     fadeEffect: {
       crossFade: true,
     },
+    lazy: true,
+    lazy: {
+      checkInView: true,
+      enabled: true,
+    },
     keyboard: {
       enabled: true,
     },
     slidesPerView: 1,
     centeredSlides: true,
     preloadImages: false,
+    lazy: {
+      checkInView: true,
+      enabled: true,
+    },
     rewind: true,
     autoplay: true,
   };
@@ -41,11 +51,12 @@
       class="flex flex-col items-center gap-4 px-16 text-center"
     >
       <img
-        :src="item.imgUrl"
         :alt="item.name"
-        class="h-20 w-20 rounded-full"
-        loading="lazy"
+        class="swiper-lazy h-20 w-20 rounded-full"
+        :data-src="item.imgUrl"
       />
+
+      <div class="swiper-lazy-preloader"></div>
 
       <q class="text-gray-400">{{ item.quote }}</q>
 

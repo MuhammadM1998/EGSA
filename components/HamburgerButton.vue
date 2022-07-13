@@ -11,7 +11,7 @@
 </script>
 
 <template>
-  <button class="outline-none">
+  <button class="outline-none" aria-label="Hamburger Menu">
     <svg
       :class="{ 'hamburger--active': isNavActive }"
       class="hamburger"

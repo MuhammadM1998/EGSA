@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink to="/">
+  <NuxtLink to="/" aria-label="EGSA Logo">
     <!-- Logo EN -->
     <svg
       v-if="$i18n.locale === 'en'"

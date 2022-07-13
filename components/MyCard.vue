@@ -13,19 +13,43 @@
 
       <ul class="social-links">
         <li>
-          <a href="#"> <NuxtIcon name="Gmail" /></a>
+          <a
+            href="mailto:MuhammadM.1097@gmail.com"
+            target="_blank"
+            aria-label="Gmail"
+          >
+            <NuxtIcon name="Gmail" />
+          </a>
         </li>
 
         <li>
-          <a href="#"><NuxtIcon name="LinkedIn" /></a>
+          <a
+            href="https://www.linkedin.com/in/muhammadm1998/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <NuxtIcon name="LinkedIn" />
+          </a>
         </li>
 
         <li>
-          <a href="#"><NuxtIcon name="GitHub" /></a>
+          <a
+            href="https://github.com/MuhammadM1998"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <NuxtIcon name="GitHub" />
+          </a>
         </li>
 
         <li>
-          <a href="#"><NuxtIcon name="Dev.to" /></a>
+          <a
+            href="https://dev.to/muhammadm1998"
+            target="_blank"
+            aria-label="Dev.to"
+          >
+            <NuxtIcon name="Dev.to" />
+          </a>
         </li>
       </ul>
 

@@ -90,19 +90,19 @@
 
         <ul class="social-links">
           <li>
-            <a href="#"> <NuxtIcon name="Facebook" /></a>
+            <a href="#" aria-label="Facebook"> <NuxtIcon name="Facebook" /></a>
           </li>
 
           <li>
-            <a href="#"><NuxtIcon name="Twitter" /></a>
+            <a href="#" aria-label="Twitter"><NuxtIcon name="Twitter" /></a>
           </li>
 
           <li>
-            <a href="#"><NuxtIcon name="Instagram" /></a>
+            <a href="#" aria-label="Instagram"><NuxtIcon name="Instagram" /></a>
           </li>
 
           <li>
-            <a href="#"><NuxtIcon name="LinkedIn" /></a>
+            <a href="#" aria-label="LinkedIn"><NuxtIcon name="LinkedIn" /></a>
           </li>
         </ul>
       </div>
