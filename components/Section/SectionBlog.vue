@@ -3,6 +3,7 @@
     <div class="container flex flex-col gap-8 lg:flex-row lg:items-center">
       <div
         class="flex flex-col items-center gap-4 text-center lg:basis-2/5 lg:items-start lg:text-start"
+        data-aos="zoom-in-left"
       >
         <h2>{{ $t('sections.blog.section_heading') }}</h2>
 
@@ -15,6 +16,7 @@
 
       <div
         class="flex flex-col items-center gap-8 md:flex-row md:justify-center lg:basis-3/5"
+        data-aos="zoom-in-right"
       >
         <BaseArticleCard
           img-url="https://res.cloudinary.com/cloud-m98/image/upload/v1657717653/EGSA/Blog-Earth-from-Space_ee55pe.webp"

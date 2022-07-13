@@ -14,12 +14,14 @@
 </script>
 
 <template>
-  <SectionIntro />
-  <SectionFeatures />
-  <SectionDetails />
-  <LazySectionRequestFlight />
-  <LazySectionBlog />
-  <LazySectionTestimonials />
-  <LazyTheFooter />
-  <LazyMyCard />
+  <div>
+    <SectionIntro />
+    <SectionFeatures />
+    <SectionDetails />
+    <LazySectionRequestFlight />
+    <LazySectionBlog />
+    <LazySectionTestimonials />
+    <LazyTheFooter />
+    <LazyMyCard />
+  </div>
 </template>

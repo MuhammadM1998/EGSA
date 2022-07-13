@@ -1,13 +1,13 @@
 <template>
   <section class="app-section bg-black text-center text-white lg:text-start">
     <div class="container flex flex-col gap-4 lg:flex-row">
-      <div class="flex flex-col gap-4 lg:basis-full">
+      <div class="flex flex-col gap-4 lg:basis-full" data-aos="zoom-out">
         <h2>{{ $t('sections.flight_request.section_heading') }}</h2>
 
         <p>{{ $t('sections.flight_request.section_sub_heading') }}</p>
       </div>
 
-      <form class="flex flex-col gap-2 lg:basis-full">
+      <form class="flex flex-col gap-2 lg:basis-full" data-aos="zoom-in">
         <input
           type="number"
           name="flight-no"

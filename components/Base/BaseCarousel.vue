@@ -69,6 +69,10 @@
 </template>
 
 <style>
+  :root {
+    --swiper-theme-color: #ffcb06;
+  }
+
   .swiper {
     @apply flex flex-col gap-2;
   }
@@ -81,16 +85,7 @@
     @apply static;
   }
 
-  .swiper-button-prev,
-  .swiper-button-next {
-    @apply text-primary;
-  }
-
   .swiper-pagination-bullet {
     @apply transition-all;
-  }
-
-  .swiper-pagination-bullet-active {
-    @apply bg-primary;
   }
 </style>

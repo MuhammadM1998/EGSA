@@ -4,7 +4,10 @@
       <div
         class="flex flex-col items-center gap-4 lg:flex-row-reverse lg:gap-20"
       >
-        <div class="flex items-center justify-center lg:basis-full">
+        <div
+          class="flex items-center justify-center lg:basis-full"
+          data-aos="fade-right"
+        >
           <picture>
             <source
               media="(max-width: 1023px)"
@@ -30,6 +33,7 @@
 
         <div
           class="flex flex-col gap-4 text-center md:text-start lg:basis-full"
+          data-aos="fade-left"
         >
           <h2>{{ $t('sections.details.section_heading') }}</h2>
 
@@ -44,7 +48,7 @@
 
       <div class="flex flex-col gap-12 lg:flex-row lg:justify-between">
         <!-- Dont forget to bring with you -->
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4" data-aos="fade-up">
           <h3 class="text-center">
             {{ $t('sections.details.dont_forget.heading') }}
           </h3>
@@ -88,7 +92,7 @@
         </div>
 
         <!-- This is best left at home. -->
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4" data-aos="fade-up">
           <h3 class="text-center">
             {{ $t('sections.details.leave_at_home.heading') }}
           </h3>
