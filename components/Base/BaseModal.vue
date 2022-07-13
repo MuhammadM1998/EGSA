@@ -10,7 +10,6 @@
   const modal = ref(null);
 
   const closeModal = () => {
-    console.log('test');
     emit('update:isModalVisible', false);
   };
 
@@ -27,7 +26,7 @@
 
 <template>
   <ClientOnly>
-    <teleport to="#egsa-app">
+    <teleport to="body">
       <transition name="fade" appear>
         <div v-if="isModalVisible" class="backdrop"></div>
       </transition>
@@ -50,7 +49,7 @@
 
 <style scoped lang="scss">
   .backdrop {
-    @apply fixed top-0 left-0 z-10  h-screen w-screen  bg-black bg-opacity-75;
+    @apply fixed top-0 left-0 z-40  h-screen w-screen  bg-black bg-opacity-75;
 
     &.fade-enter-active,
     &.fade-leave-active {
@@ -64,7 +63,7 @@
   }
 
   .modal {
-    @apply fixed top-1/2 left-1/2 z-20 flex max-w-[70vh] -translate-y-1/2 -translate-x-1/2 flex-col gap-4 rounded-lg bg-white  py-6 px-12;
+    @apply fixed top-1/2 left-1/2 z-50 flex max-w-[70vh] -translate-y-1/2 -translate-x-1/2 flex-col gap-4 rounded-lg bg-white  py-6 px-12;
 
     .heading {
       @apply text-center text-xl font-semibold text-primary;

@@ -118,6 +118,10 @@ sections:
     sub_heading: 'I created this website. If you like it and want to make your own, feel free to contact me.'
     rights: '© All Rights Reserved 2022 . Muhammad Mahmoud'
 
+  error:
+    heading: 'You travelled too far, even for us!'
+    sub_heading: "Our rockets can't reach this destination yet. Get back to safety!"
+
 components:
   buttons:
     flights_schedule: 'Flights Schedule'
@@ -125,8 +129,18 @@ components:
     all_articles: 'All Articles'
     read_more: 'Read More'
     subscribe: 'Subscribe'
+    go_home: 'Go Back'
 
   modal:
     heading: 'Coming soon. Stay tuned!'
     sub_heading: 'We work everyday to enhance our clients experience. This feature is on our roadmap and exepected to be released soon. Thank you for your patience.'
     close: 'Close'
+
+meta:
+  home:
+    title: 'EGSA'
+    description: 'To the moon and beyond!'
+
+  error:
+    title: '404 Not Found'
+    description: 'You went too far! this page does not exist. Get back home.'

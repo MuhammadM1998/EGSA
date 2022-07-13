@@ -34,8 +34,7 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
-          content:
-            'Multilingual (EN & AR) Landing Page for The Egyptian Space Agency, a moon flights agency.',
+          content: 'To the moon and beyond!',
         },
         // Facebook Meta Tags
         { property: 'fb:app_id', content: '966242223397117' },

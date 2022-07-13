@@ -1,34 +1,25 @@
 <script setup>
   import { useI18n } from 'vue-i18n';
-  const { locale } = useI18n();
+  const { t } = useI18n();
 
   useHead({
-    htmlAttrs: { lang: locale },
-  });
-
-  definePageMeta({
-    middleware: () => {
-      const cookie = useCookie('user-favourite-locale');
-      const { vueApp } = useNuxtApp();
-      if (cookie.value)
-        vueApp.config.globalProperties.$i18n.locale = cookie.value;
-    },
+    title: t('meta.home.title'),
+    meta: [
+      {
+        name: 'description',
+        content: t('meta.home.description'),
+      },
+    ],
   });
 </script>
 
 <template>
-  <div
-    id="egsa-app"
-    :dir="$i18n.locale === 'en' ? 'ltr' : 'rtl'"
-    :class="$i18n.locale === 'ar' ? 'font-norsal' : ''"
-  >
-    <SectionIntro />
-    <SectionFeatures />
-    <SectionDetails />
-    <LazySectionRequestFlight />
-    <LazySectionBlog />
-    <LazySectionTestimonials />
-    <LazyTheFooter />
-    <LazyMyCard />
-  </div>
+  <SectionIntro />
+  <SectionFeatures />
+  <SectionDetails />
+  <LazySectionRequestFlight />
+  <LazySectionBlog />
+  <LazySectionTestimonials />
+  <LazyTheFooter />
+  <LazyMyCard />
 </template>
