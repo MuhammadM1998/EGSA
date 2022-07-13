@@ -3,8 +3,8 @@
     middleware: () => {
       const cookie = useCookie('user-favourite-locale');
       const { vueApp } = useNuxtApp();
-      const { locale } = vueApp.__VUE_I18N__.global;
-      if (cookie.value) locale.value = cookie.value;
+      if (cookie.value)
+        vueApp.config.globalProperties.$i18n.locale = cookie.value;
     },
   });
 </script>
@@ -15,7 +15,6 @@
     :dir="$i18n.locale === 'en' ? 'ltr' : 'rtl'"
     :class="$i18n.locale === 'ar' ? 'font-norsal' : ''"
   >
-    <TheHeader />
     <SectionIntro />
     <SectionFeatures />
     <SectionDetails />

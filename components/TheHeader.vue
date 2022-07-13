@@ -14,7 +14,7 @@
 
 <template>
   <header
-    class="relative bg-gray-500 py-4 transition-colors"
+    class="fixed z-20 w-full bg-gray-500 py-4 transition-colors"
     :class="{ 'bg-black': isMobileNavVisible }"
   >
     <div class="container flex items-center justify-between">

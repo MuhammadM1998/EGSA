@@ -23,7 +23,7 @@
         />
 
         <BaseArticleCard
-          img-url="../assets/images/Blog-Solar-Eclipse.webp"
+          img-url="~/assets/images/Blog-Solar-Eclipse.webp"
           :title="$t('sections.blog.articles.article2.title')"
           :sub-title="$t('sections.blog.articles.article2.sub_title')"
         />

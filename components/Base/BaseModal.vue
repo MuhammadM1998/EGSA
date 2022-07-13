@@ -85,7 +85,7 @@
 
     &.pop-enter-from,
     &.pop-leave-to {
-      @apply -translate-x-1/2 translate-y-1/2 scale-[0.3] opacity-0;
+      @apply scale-95 opacity-0;
     }
   }
 </style>

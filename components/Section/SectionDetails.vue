@@ -2,9 +2,9 @@
   <section class="app-section">
     <div class="container flex flex-col gap-12">
       <div
-        class="flex flex-col gap-4 lg:flex-row-reverse lg:items-center lg:gap-20"
+        class="flex flex-col items-center gap-4 lg:flex-row-reverse lg:gap-20"
       >
-        <div class="lg:basis-full">
+        <div class="flex items-center justify-center lg:basis-full">
           <picture>
             <source
               media="(max-width: 1023px)"

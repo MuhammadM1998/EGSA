@@ -1,0 +1,85 @@
+<script setup>
+  // Swiper Config
+  import { Swiper, SwiperSlide } from 'swiper/vue';
+  import { Pagination, Navigation, EffectFade, Keyboard } from 'swiper';
+  import 'swiper/css';
+  import 'swiper/css/pagination';
+  import 'swiper/css/navigation';
+  import 'swiper/css/effect-fade';
+
+  const swiperConfig = {
+    modules: [Pagination, Navigation, EffectFade, Keyboard],
+    pagination: {
+      clickable: true,
+    },
+    navigation: true,
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true,
+    },
+    keyboard: {
+      enabled: true,
+    },
+    slidesPerView: 1,
+    centeredSlides: true,
+    preloadImages: false,
+    rewind: true,
+    autoplay: true,
+  };
+
+  // Rendering data
+  defineProps({
+    data: { type: Array, required: true },
+  });
+</script>
+
+<template>
+  <Swiper v-bind="swiperConfig">
+    <SwiperSlide
+      v-for="item in data"
+      :key="item.id"
+      class="flex flex-col items-center gap-4 px-16 text-center"
+    >
+      <img
+        :src="item.imgUrl"
+        :alt="item.name"
+        class="h-20 w-20 rounded-full"
+        loading="lazy"
+      />
+
+      <q class="text-gray-400">{{ item.quote }}</q>
+
+      <div>
+        <p class="font-bold">{{ item.name }}</p>
+        <p>{{ item.position }}</p>
+      </div>
+    </SwiperSlide>
+  </Swiper>
+</template>
+
+<style>
+  .swiper {
+    @apply flex flex-col gap-2;
+  }
+
+  .swiper-wrapper {
+    @apply items-center;
+  }
+
+  .swiper-pagination {
+    @apply static;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    @apply text-primary;
+  }
+
+  .swiper-pagination-bullet {
+    @apply transition-all;
+  }
+
+  .swiper-pagination-bullet-active {
+    @apply bg-primary;
+  }
+</style>

@@ -42,7 +42,7 @@ export default defineNuxtConfig({
         { property: 'og:type', content: 'website' },
         {
           property: 'og:url',
-          content: '<><><><><><><><><><><><><><><><><><><><><><><><><><><><>',
+          content: 'https://egsa.vercel.app/',
         },
         {
           property: 'og:title',
@@ -72,11 +72,11 @@ export default defineNuxtConfig({
         { name: 'twitter:card', content: 'summary_large_image' },
         {
           property: 'twitter:domain',
-          content: '<><><><><><><><><><><><><><><><><><><><><><><><><><><><>',
+          content: 'https://egsa.vercel.app/',
         },
         {
           property: 'twitter:url',
-          content: '<><><><><><><><><><><><><><><><><><><><><><><><><><><><>',
+          content: 'https://egsa.vercel.app/',
         },
         { property: 'twitter:title', content: 'EGSA' },
         {

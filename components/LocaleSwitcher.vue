@@ -8,6 +8,7 @@
     locale.value = newLocale;
     cookie.value = newLocale;
     toggleNavState();
+    location.reload();
   };
 
   // Closing the mobile nav after selecting the new locale
@@ -27,6 +28,7 @@
     <button
       class="outline-none transition-transform"
       :class="$i18n.locale === 'ar' ? '' : 'hover:scale-125'"
+      :disabled="$i18n.locale === 'ar'"
       aria-label="اللغة العربية"
       @click="updateLocale('ar')"
     >
@@ -40,6 +42,7 @@
     <button
       class="outline-none transition-transform"
       :class="$i18n.locale === 'en' ? '' : 'hover:scale-125'"
+      :disabled="$i18n.locale === 'en'"
       aria-label="English"
       @click="updateLocale('en')"
     >
