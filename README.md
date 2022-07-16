@@ -12,8 +12,9 @@ Multilingual (EN & AR) Landing Page for The Egyptian Space Agency, a moon flight
 ### ‍💻 Stack
 
 ![Nuxtjs](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82)
-![i18n](https://img.shields.io/static/v1?label=&message=i18n&color=26A69A&style=for-the-badge&logo=i18next&logoColor=ffffff)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-%231a202c?style=for-the-badge&logo=tailwind-css)
+![i18n](https://img.shields.io/static/v1?label=&message=i18n&color=26A69A&style=for-the-badge&logo=i18next&logoColor=ffffff)
+![Swiper](https://img.shields.io/badge/swiper-%236332F6.svg?&style=for-the-badge&logo=swiper&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![Vite](https://img.shields.io/static/v1?label=&message=Vite&color=646CFF&style=for-the-badge&logo=vite&logoColor=ffcb23)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
