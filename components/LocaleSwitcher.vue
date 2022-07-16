@@ -9,6 +9,7 @@
     cookie.value = newLocale;
     toggleNavState();
     location.reload();
+    console.log(newLocale);
   };
 
   // Closing the mobile nav after selecting the new locale
@@ -26,31 +27,21 @@
 <template>
   <div class="flex items-center gap-4 rounded-full bg-gray-400 py-2 px-4">
     <button
-      class="outline-none transition-transform"
-      :class="$i18n.locale === 'ar' ? '' : 'hover:scale-125'"
+      class="outline-none transition-transform ltr:hover:scale-125"
       :disabled="$i18n.locale === 'ar'"
       aria-label="اللغة العربية"
       @click="updateLocale('ar')"
     >
-      <NuxtIcon
-        name="Lang-AR"
-        fill
-        :class="$i18n.locale === 'ar' ? 'text-5xl' : 'text-2xl'"
-      />
+      <NuxtIcon name="Lang-AR" fill class="text-2xl rtl:text-5xl" />
     </button>
 
     <button
-      class="outline-none transition-transform"
-      :class="$i18n.locale === 'en' ? '' : 'hover:scale-125'"
+      class="outline-none transition-transform rtl:hover:scale-125"
       :disabled="$i18n.locale === 'en'"
       aria-label="English"
       @click="updateLocale('en')"
     >
-      <NuxtIcon
-        name="Lang-EN"
-        fill
-        :class="$i18n.locale === 'en' ? 'text-5xl' : 'text-2xl'"
-      />
+      <NuxtIcon name="Lang-EN" fill class="text-5xl rtl:text-2xl" />
     </button>
   </div>
 </template>

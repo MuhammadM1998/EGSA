@@ -92,6 +92,10 @@ export default defineNuxtConfig({
     },
   },
 
+  build: {
+    transpile: ['swiper'],
+  },
+
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-icons',

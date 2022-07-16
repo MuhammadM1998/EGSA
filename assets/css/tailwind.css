@@ -3,14 +3,21 @@
 @tailwind utilities;
 
 @layer base {
-  html,
-  body {
-    @apply scroll-smooth font-poppins font-normal;
+  html {
+    @apply overflow-x-hidden scroll-smooth font-poppins font-normal;
     -webkit-tap-highlight-color: transparent;
+  }
+
+  html[dir='rtl'] {
+    @apply font-norsal;
   }
 
   h1 {
     @apply text-5xl font-bold md:text-7xl;
+  }
+
+  [dir='ltr'] h1 {
+    @apply font-mavis;
   }
 
   h2 {

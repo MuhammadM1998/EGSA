@@ -33,7 +33,7 @@
         <div
           class="flex flex-col items-center gap-4 text-center lg:items-start lg:gap-6 lg:text-start"
         >
-          <h1 :class="$i18n.locale === 'en' ? 'font-mavis ' : 'font-norsal'">
+          <h1>
             {{ $t('sections.intro.title') }}
           </h1>
 

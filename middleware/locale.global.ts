@@ -4,12 +4,8 @@ export default defineNuxtRouteMiddleware(() => {
   if (cookie.value) vueApp.config.globalProperties.$i18n.locale = cookie.value;
 
   useHead({
-    bodyAttrs: {
+    htmlAttrs: {
       dir: vueApp.config.globalProperties.$i18n.locale === 'en' ? 'ltr' : 'rtl',
-      class:
-        vueApp.config.globalProperties.$i18n.locale === 'en'
-          ? ''
-          : 'font-norsal',
     },
   });
 });
